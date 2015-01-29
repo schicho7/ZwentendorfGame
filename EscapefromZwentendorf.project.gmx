@@ -18,6 +18,7 @@
     </sprites>
     <sprites name="DEV">
       <sprite>sprites\spr_coll</sprite>
+      <sprite>sprites\spr_portal</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -25,7 +26,12 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_mainmenu.gml</script>
+    <scripts name="MENU">
+      <script>scripts\scr_mainmenu.gml</script>
+    </scripts>
+    <scripts name="PORTAL">
+      <script>scripts\scr_teleport.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_mainmenu</font>
@@ -40,12 +46,18 @@
     </objects>
     <objects name="DEV">
       <object>objects\obj_coll</object>
+      <object>objects\obj_portal</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
-    <room>rooms\rm_main</room>
-    <room>rooms\rm_menu_options</room>
+    <rooms name="MENU">
+      <room>rooms\room0</room>
+      <room>rooms\rm_menu_options</room>
+    </rooms>
+    <rooms name="TOWNS">
+      <room>rooms\rm_town_main</room>
+      <room>rooms\rm_town_main_house01</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

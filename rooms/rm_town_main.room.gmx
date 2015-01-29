@@ -74,7 +74,7 @@
     <instance objName="obj_coll" x="288" y="224" name="inst_FD92D723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coll" x="256" y="224" name="inst_05746C57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coll" x="224" y="224" name="inst_0EC002A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal" x="256" y="256" name="inst_7A0DC82F" locked="0" code="test = rm_main_house01;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal" x="256" y="256" name="inst_7A0DC82F" locked="0" code="test = rm_town_main_house01;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="0" y="32" w="32" h="32" xo="0" yo="0" id="10000010" name="inst_E9F2E3A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
