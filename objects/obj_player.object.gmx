@@ -50,8 +50,7 @@ vsp = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///MOVEMENT
-
+            <string>//sprite_index = spr_player_idle;
 
 if(keyboard_check(vk_up))
 {
